@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["env",{
+      "modules": "commonjs"
+    }],
+    "stage-3"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "syntax-dynamic-import",
+    "transform-object-assign",
+    "syntax-object-rest-spread"
+  ],
+  "comments": false
+}

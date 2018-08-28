@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["es5", "es6", "dom"],
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": false,
+    "listEmittedFiles": true,
+    "noUnusedLocals": false,
+    "target": "es6",
+    "watch": true,
+    "moduleResolution": "node",
+    "rootDirs": [
+      "src"
+    ],
+    "paths": {
+      "js/*": ["src/js/*"],
+      "style/*": ["src/style/*"],
+      "shaders/*": ["src/shaders/*"],
+      "data/*": ["src/data/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
